@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@200&family=Kodchasan:wght@200&family=Lexend:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@200&family=Lexend:wght@200&display=swap');
+
+.button-consulting {
+    font-family: "Kodchasan";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+
+    background-color: #3FA33D;
+    width: 16vw;
+    height: 6vh;
+
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+li {
+    display: inline;
+    margin: 1.45rem;
+
+    font-size: 18px;
+    font-family: "Lexend";
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+nav {
+    padding-top: 1.25rem;
+    margin: 0 auto 0;
+}
+
+.navbar-nav li {
+    border-bottom: 2.5px solid white;
+}
+
+.nav-icon {
+    margin-right: 29.70rem;
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    .button-consulting {
+        font-family: "Kodchasan";
+        font-size: 12.5px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+    
+        background-color: #3FA33D;
+        width: 16vw;
+        height: 6vh;
+    
+        border-radius: 8px;
+    }
+
+    nav {
+      padding-top: 1.55rem;
+      margin-right: 3.2rem;
+    }
+
+    .nav-icon {
+        margin: 0 auto 0;
+    }
+
+    li {
+        display: inline;
+        margin: 0.5rem;
+    
+        font-size: 16px;
+        font-family: "Lexend";
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+}
+
+@media (min-width: 1024px) {
+    .button-consulting {
+        font-family: "Kodchasan";
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+    
+        background-color: #3FA33D;
+        width: 16vw;
+        height: 6vh;
+    
+        border-radius: 8px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    
+    li {
+        display: inline;
+        margin: 1.45rem;
+    
+        font-size: 18px;
+        font-family: "Lexend";
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+    
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+    
+    nav {
+        padding-top: 1.25rem;
+        margin: auto 1rem;
+    }
+    
+    .navbar-nav li {
+        border-bottom: 2.5px solid white;
+    }
+    
+    .nav-icon {
+        margin: 0 auto 0 15px;
+    }
+}
