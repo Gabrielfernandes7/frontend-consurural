@@ -25,15 +25,39 @@
 
 .underlined-consurural-brand {
   margin: 0 auto;
-  width: 500px;
-  height: 20px;
+  width: 31.25rem;
+  height: 1.25rem;
 }
 
 .brand {
-  margin-top: 3.50rem;
+  margin-top: 2.9rem;
 }
 
-@media (min-width: 600px) and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
+  .consurural-name-brand {
+    font-size: 60px;
+    font-family: "Jura";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .text-background-image {
+    font-size: 15px;
+    font-family: "Karla";
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .underlined-consurural-brand {
+    margin: auto;
+    width: 25rem;
+  }
+  
+  .brand {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
   .consurural-name-brand {
     font-size: 70px;
     font-family: "Jura";
@@ -42,40 +66,38 @@
   }
   
   .text-background-image {
-    font-size: 20px;
+    font-size: 17.5px;
     font-family: "Karla";
     color: rgba(255, 255, 255, 1);
   }
   
   .underlined-consurural-brand {
-    margin: 0 auto;
-    width: 400px;
-    height: 30px;
+    margin: auto;
+    width: 25rem;
   }
   
   .brand {
-    margin-top: 2.9rem;
+    margin-top: 2.75rem;
   }
 }
 
-@media (min-width: 641px) and (max-width: 1024px) {
+@media only screen and (min-width: 992px) {
   .consurural-name-brand {
-    font-size: 60px;
+    font-size: 90px;
     font-family: "Jura";
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
   }
-
+  
   .text-background-image {
-    font-size: 20px;
+    font-size: 19.5px;
     font-family: "Karla";
     color: rgba(255, 255, 255, 1);
   }
   
   .underlined-consurural-brand {
-    margin: 0 auto;
-    width: 400px;
-    height: 30px;
+    margin: auto;
+    width: 37.5rem;
   }
   
   .brand {
