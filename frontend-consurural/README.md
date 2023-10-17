@@ -1,8 +1,8 @@
 # Consurural
 
-## Background e Navbar
+## Background e Navbar ( Feito )
 
-## Consultorias
+## Consultorias ( Feito )
 
 ## Agendamento
 
