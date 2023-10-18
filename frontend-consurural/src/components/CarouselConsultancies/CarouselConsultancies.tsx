@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Carousel } from 'primereact/carousel';
-import { ConsultanciesService, DataConsultance } from '../services/ConsultanciesService';
+import { ConsultanciesService, DataConsultance } from '../../services/ConsultanciesService';
 import './CarouselConsultancies.css';
 
 const CarouselConsultancies = () => {
@@ -35,7 +35,7 @@ const CarouselConsultancies = () => {
 
     return (
         <div className="container-carousel">
-            <h1 className="name-nav-point">Consultorias</h1>
+            <h1 className="name-nav-point">CONSULTORIAS</h1>
             <Carousel
                 value={consultancies}
                 numVisible={4}
