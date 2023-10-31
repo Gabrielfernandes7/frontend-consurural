@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
+
+.card-recomendations {
+    @apply rounded-lg;
+
+    font-family: "Karla";
+}

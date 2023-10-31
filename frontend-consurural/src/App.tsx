@@ -1,3 +1,4 @@
+import CardRecomendations from "./components/CardRecommendations/CardRecomendations";
 import CarouselConsultancies from "./components/CarouselConsultancies/CarouselConsultancies";
 import HomeComponent from "./components/HomeComponent/HomeComponent";
 import NavbarHome from "./components/NavbarHome/NavbarHome";
@@ -26,6 +27,10 @@ function App() {
         }}
       >
         <SchedulingForm />
+      </div>
+
+      <div>
+        <CardRecomendations />
       </div>
     </div>
   );
