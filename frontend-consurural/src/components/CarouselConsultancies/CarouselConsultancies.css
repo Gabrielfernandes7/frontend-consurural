@@ -12,6 +12,11 @@
 
 .image-card {
     border-radius: 25px;
+    /* max-width: 290px; */
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    
 }
 
 .name-consultance {

@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
 
-.card-recomendations {
-    @apply h-full ml-10 mr-10;
+.container-recomendations {
+
+    margin-bottom: 200px;
+    background-color: rgb(179, 179, 247);
+    height: 100%;
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.icon-recomendations {
+    border: 2px solid salmon;
 }

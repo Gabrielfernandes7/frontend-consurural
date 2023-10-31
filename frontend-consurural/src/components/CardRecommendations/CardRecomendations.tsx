@@ -2,7 +2,8 @@ import "./CardRecomendations.css";
 
 const CardRecomendations = () => {
     return (
-        <div className="container-recomendations">
+        <div 
+            className="container-recomendations">
             <h1 className="name-nav-point">RECOMENDAÇÕES</h1>
             <div className="text-recomendations">
                 Quisque posuere, 
@@ -11,7 +12,11 @@ const CardRecomendations = () => {
                 vitae consectetur nisi erat vitae massa.
             </div>
 
-            <img src="" alt="icon-happy" />
+            <img 
+                src="src/assets/icons/icon-happy.png" 
+                alt="icon-happy"
+                className="icon-recomendations"
+            />
         </div>
     )
 }
