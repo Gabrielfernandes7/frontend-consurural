@@ -1,10 +1,11 @@
 import "./CardRecomendations.css";
 
-export interface DescriptionCard {
-    description: string
+export interface RecomendationCard {
+    description: string,
+    image_card_recomendation: string
 }
 
-const CardRecomendations = ({ description }: DescriptionCard) => {
+const CardRecomendations = ({ description, image_card_recomendation }: RecomendationCard) => {
     return (
         <div className="container-recomendations">
 
@@ -15,7 +16,7 @@ const CardRecomendations = ({ description }: DescriptionCard) => {
                     { description }
                 </div>
                 <img
-                    src="src/assets/icons/icon-happy.png"
+                    src={image_card_recomendation}
                     alt="icon-happy"
                     className="icon-recomendations"
                 />

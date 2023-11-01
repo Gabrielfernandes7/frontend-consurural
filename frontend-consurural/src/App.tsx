@@ -22,6 +22,7 @@ function App() {
       </div>
 
       <div
+        className="scheduling-form-app"
         style={{
           minWidth: 400,
         }}
@@ -29,8 +30,15 @@ function App() {
         <SchedulingForm />
       </div>
 
-      <div>
-        <CardRecomendations />
+      <div className="card-recomendations-app">
+        <CardRecomendations 
+          description="
+          Quisque posuere, 
+          purus ut egestas vehicula, 
+          nisl ante aliquet neque, 
+          vitae consectetur nisi erat vitae massa."
+          image_card_recomendation='src/assets/icons/icon-happy.png'
+        />
       </div>
     </div>
   );
