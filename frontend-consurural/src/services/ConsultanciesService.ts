@@ -35,7 +35,7 @@ export const ConsultanciesService = {
             {
                 id: 5,
                 consultance_name: "Oleiculturas",
-                image_consultance: "/src/assets/images/pecuaria-leiteira 1.jpg",
+                image_consultance: "/src/assets/images/olericultura.jpg",
                 text_consultance: "",
             }
         ];

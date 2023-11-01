@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
 
 .container-recomendations {
-
     margin-bottom: 200px;
-    background-color: rgb(179, 179, 247);
     height: 100%;
 
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
 
+.card-recomendations {
+    @apply rounded-lg;
+
+    background-color: #0F134F;
+
+    width: 568px;
+    height: 239px;
+}
+
 .icon-recomendations {
-    border: 2px solid salmon;
+    flex-direction: column;
+
+    height: 5rem;
+    width: 5rem;
+
+    margin: 3rem auto;
+}
+
+.text-recomendations {
+    margin: 1rem auto;
 }
