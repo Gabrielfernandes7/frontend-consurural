@@ -4,8 +4,6 @@
 
 ## Consultorias ( Feito )
 
-## Agendamento
+## Agendamento ( Feito )
 
-## Recomendações
-
-## Agendamento
+## Depoimentos

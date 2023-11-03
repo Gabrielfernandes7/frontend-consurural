@@ -2,7 +2,18 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #070929;
 }
-  
+
+.name-nav-point {
+  font-family: "Jura";
+  font-size: 50px;
+
+  margin: 2rem 0 2rem 1rem;
+}
+
+.highlighted-text {
+  color: #61F45E;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

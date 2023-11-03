@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@200&family=Kodchasan:wght@200&family=Lexend:wght@200&display=swap');
+
+input {
+    @apply flex mb-5 h-12 rounded-md;    
+    background-color: #272D7B;
+    font-family: "Jura";
+}
+
+input::placeholder {
+    font-family: "Jura";
+
+    @apply text-lg pl-4;
+}
+
+textarea::placeholder {
+    @apply px-1 px-5 pl-10 pt-5;
+
+    font-family: "Jura";
+    padding: 0.063rem 1.25rem;
+    font-size: 1.125rem;
+    padding-left: 0.625rem;
+}
+
+form {
+    margin: 0 3.75rem;
+}
+
+form input, textarea {
+    margin-bottom: 1.5rem;
+}
+
+form select {
+    margin-bottom: 1.5rem
+}
+
+.forms {
+    @apply flex flex-col items-center mx-auto;
+}
+
+.container-scheduling-form {    
+    @apply h-full ml-10 mr-10;
+}
+
+#project-implement,
+#consultancies-project-implement {
+    @apply flex px-0.5 py-1 rounded;
+
+    width: 100%;
+    height: 7.5rem;
+
+    background-color: #272D7B;
+}
+
+.container-dropdown {
+    @apply mx-auto my-8 p-8 text-center;
+    
+    background-color: #0F134F;    
+    width: 70%;
+}
+
+#dropdown-consultancies {
+    @apply bg-blue-500 w-1/3 h-10 text-center;
+
+    background-color: #272D7B;
+}
+
+.button-form {
+    @apply text-white mt-3 rounded-md h-12 w-40;
+
+    background-color: #3FA33D;
+    color: #ffffff;
+}
+
+.container-forms-services {
+    @apply mx-auto p-8;
+
+    width: 70%;
+    text-align: center;
+
+    background-color: #0F134F;
+}
+
+.about-consurural-and-logo {
+    @apply inline-flex flex-col;
+
+    margin: 3.75rem auto 5rem;
+    padding: 1.5rem;
+    width: 25vw;
+
+    text-align: center;
+    align-items: center;
+}
+
+.logo-consurural-about {
+    margin-bottom: 2.5rem;
+}
+
+#consultancies {
+    @apply flex h-12 w-full pl-2 rounded-md;
+
+    background-color: #272D7B;
+    padding-left: 0.625rem;
+}
+
+.form-h1 {
+    @apply text-white text-5xl font-normal leading-normal;
+
+    margin-bottom: 0.45rem;
+    font-family: "Jura";
+}

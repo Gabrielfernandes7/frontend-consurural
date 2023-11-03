@@ -5,7 +5,7 @@
 .background-home {
   background-image: url("/src/assets/images/wallpaper-main.jpg");
   text-align: center;
-  width: 100vw;
+  width: 98.9vw;
   height: 100vh;
   background-size: cover;
 }
