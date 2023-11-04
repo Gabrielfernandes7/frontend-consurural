@@ -1,10 +1,9 @@
-import CarouselConsultancies from './components/CarouselConsultancies/CarouselConsultancies';
-import HomeComponent from './components/HomeComponent/HomeComponent';
-import NavbarHome from './components/NavbarHome/NavbarHome';
-import SchedulingForm from './components/SchedulingForm/SchedulingForm';
+import CarouselConsultancies from "./components/CarouselConsultancies/CarouselConsultancies";
+import HomeComponent from "./components/HomeComponent/HomeComponent";
+import NavbarHome from "./components/NavbarHome/NavbarHome";
+import SchedulingForm from "./components/SchedulingForm/SchedulingForm";
 
 function App() {
-
   return (
     <div>
       <div className="background-home">
@@ -12,15 +11,24 @@ function App() {
         <HomeComponent />
       </div>
 
-      <div className="consultancies-carousel">
+      <div
+        style={{
+          minWidth: 400,
+        }}
+        className="consultancies-carousel"
+      >
         <CarouselConsultancies />
       </div>
 
-      <div>
+      <div
+        style={{
+          minWidth: 400,
+        }}
+      >
         <SchedulingForm />
       </div>
     </div>
-  )
+  );
 }
 
 export default App;
