@@ -60,6 +60,7 @@ const NavbarHome = () => {
   return (
     <div className="card">
       <Menubar
+        className="teste"
         model={items}
         start={
           <img

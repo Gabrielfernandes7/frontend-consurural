@@ -2,6 +2,90 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@200&family=Lexend:wght@200&display=swap");
 
+.navbar-nav li {
+  border-bottom: 2.5px solid white;
+}
+
+li:hover {
+  border-bottom: 2.5px solid #3fa33d;
+}
+
+@media only screen and (min-width: 960px) {
+  /* .button-consulting {
+        font-family: "Kodchasan";
+        font-size: 15px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+        margin: 0 4rem 0 0.2rem;
+    
+        background-color: #3FA33D;
+        width: 12vw;
+        height: 6vh;
+    } */
+
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 1.25rem;
+    margin: 0 auto 0;
+  }
+
+  li {
+    display: inline;
+    margin: 1.15rem;
+
+    font-size: 16px;
+    font-family: "Lexend";
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+
+  .nav-icon {
+    margin: 0 auto 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 1091px) {
+  /* .button-consulting {
+        font-family: "Kodchasan";
+        font-size: 15px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+        margin: 0 4rem 0 0.2rem;
+    
+        background-color: #3FA33D;
+        width: 12vw;
+        height: 6vh;
+    } */
+
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 1.25rem;
+    margin: 0 auto 0;
+  }
+
+  li {
+    display: inline;
+    margin: 1.75rem;
+
+    font-size: 17px;
+    font-family: "Lexend";
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+
+  .nav-icon {
+    margin: 0 auto 0 2rem;
+  }
+}
+
 .button-consulting {
   font-family: "Kodchasan";
   font-size: 15px;
@@ -18,6 +102,18 @@
 
 .p-menubar {
   background-color: transparent;
+}
+
+.p-menubar-root-list {
+  background-color: #272d7b;
+}
+
+.p-menubar-root-list span{
+    color: white;
+  }
+
+.p-menuitem-text {
+  color: black;
 }
 
 .p-menuitem-text {
