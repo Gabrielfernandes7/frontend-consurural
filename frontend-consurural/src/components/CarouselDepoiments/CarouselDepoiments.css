@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
+
+.card {
+    border-radius: 19px;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: rgba(15, 19, 79, 1);
+}
+
+.name-depoiment {
+    font-size: 20px;
+}
+
+.container-carousel {
+    height: 100%;
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+@media only screen and (min-width: 1199px) {
+    .card {
+        border-radius: 19px;
+        margin: 0 auto;
+        text-align: center;
+    
+        width: 18rem;
+        background-color: rgba(15, 19, 79, 1);
+    }
+}

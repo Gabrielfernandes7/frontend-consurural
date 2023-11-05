@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .container-recomendations {
     margin-bottom: 200px;
     height: 100%;

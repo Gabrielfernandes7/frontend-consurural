@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
 :root {
   color: rgba(255, 255, 255, 0.87);
   background-color: #070929;
@@ -5,9 +7,9 @@
 
 .name-nav-point {
   font-family: "Jura";
-  font-size: 50px;
+  font-size: 60px;
 
-  margin: 2rem 0 2rem 1rem;
+  margin: 2rem auto 2rem 3.5rem;
 }
 
 .highlighted-text {

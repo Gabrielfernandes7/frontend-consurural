@@ -18,25 +18,25 @@ export const ConsultanciesService = {
                 id: 2,
                 consultance_name: "Fruticultura",
                 image_consultance: "/src/assets/images/fruticultura1.jpg",
-                text_consultance: "",
+                text_consultance: "A ConsuRural oferece consultoria em fruticultura, abordando questões específicas das plantações e proporcionando acompanhamento completo, visando aumentar lucros e impulsionar o sucesso do produtor a longo prazo.",
             },
             {
                 id: 3,
                 consultance_name: "Grandes culturas",
                 image_consultance: "/src/assets/images/grandes-culturas.jpg",
-                text_consultance: "",
+                text_consultance: "A ConsuRural: consultoria em grandes culturas, atuando em desafios pontuais e no acompanhamento desde o início para uma nova geração de renda e lucratividade.",
             },
             {
                 id: 4,
                 consultance_name: "Avicultura",
                 image_consultance: "/src/assets/images/avicultura.jpg",
-                text_consultance: "A consultoria de aves da consurural trabalha tanto problemas pontuais do plantel das aves, como também fazemos consultoria recorrentes, da parte de implantação da estrutura a todo acompanhamento de implantação para o produtor que quer começar do zero, trazendo não só a questão do aumento de lucro, mas também pra realidade do produtor a implantação de uma nova geração de renda.",
+                text_consultance: "A consultoria de aves da ConsuRural resolve problemas pontuais e oferece consultorias recorrentes, da estrutura à geração de renda, para produtores iniciantes, impulsionando lucros.",
             },
             {
                 id: 5,
                 consultance_name: "Oleiculturas",
                 image_consultance: "/src/assets/images/olericultura.jpg",
-                text_consultance: "",
+                text_consultance: "A consultoria em olericultura da ConsuRural aborda questões específicas de hortaliças e oferece serviços contínuos, do planejamento à colheita, para produtores iniciantes, visando aumento da rentabilidade e nova fonte de renda.",
             }
         ];
     },

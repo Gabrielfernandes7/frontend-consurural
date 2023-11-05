@@ -12,7 +12,9 @@ const CardRecomendations =
         image_card_recomendation, 
         alt_img_card_recomendation }: RecomendationCard) => {
     return (
-        <div className="flex flex-col container-recomendations">
+        <div 
+            className="
+                flex container-recomendations">
             <div className="card-recomendations">
                 <div className="text-recomendations">
                     { description }

@@ -3,6 +3,7 @@ import CarouselConsultancies from "./components/CarouselConsultancies/CarouselCo
 import HomeComponent from "./components/HomeComponent/HomeComponent";
 import NavbarHome from "./components/NavbarHome/NavbarHome";
 import SchedulingForm from "./components/SchedulingForm/SchedulingForm";
+import CarouselDepoiments from "./components/CarouselDepoiments/CarouselDepoiments";
 
 function App() {
   return (
@@ -52,17 +53,10 @@ function App() {
           image_card_recomendation='src/assets/icons/security.png'
           alt_img_card_recomendation='ícone security'
         />
-
-<CardRecomendations 
-          description="
-          Quisque posuere, 
-          purus ut egestas vehicula, 
-          nisl ante aliquet neque, 
-          vitae consectetur nisi erat vitae massa."
-          image_card_recomendation='src/assets/icons/security.png'
-          alt_img_card_recomendation='ícone sinal legal'
-        />
       </div>
+
+      <h1 className="name-nav-point">DEPOIMENTOS</h1>
+      <CarouselDepoiments />
     </div>
   );
 }
