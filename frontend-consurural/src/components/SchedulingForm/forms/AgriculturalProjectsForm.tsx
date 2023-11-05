@@ -31,8 +31,8 @@ const AgriculturalProjectsForm = () => {
                 />
 
                 <textarea 
-                    name="project-implement" 
-                    id="project-implement" 
+                    name="project_implement" 
+                    id="project_implement" 
                     cols={1} rows={10} 
                     placeholder="Qual projeto deseja implementar">
                 </textarea>
