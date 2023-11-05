@@ -17,7 +17,7 @@ export const ConsultanciesService = {
             {
                 id: 2,
                 consultance_name: "Fruticultura",
-                image_consultance: "/src/assets/images/fruticultura.jpg",
+                image_consultance: "/src/assets/images/fruticultura1.jpg",
                 text_consultance: "",
             },
             {

@@ -31,10 +31,6 @@ const SchedulingForm = () => {
 
     return (
         <div className="container-scheduling-form">
-            <h1 className="name-nav-point">
-                ORÇAMENTOS
-            </h1>
-
             <div className="container-dropdown rounded-xl">
 
                 <h1 className="py-4">

@@ -12,6 +12,7 @@ function App() {
         <HomeComponent />
       </div>
 
+      <h1 className="name-nav-point">CONSULTORIAS</h1> 
       <div
         style={{
           minWidth: 400,
@@ -30,7 +31,8 @@ function App() {
         <SchedulingForm />
       </div>
 
-      <div className="card-recomendations-app">
+      <h1 className="name-nav-point">RECOMENDAÇÕES</h1>
+      <div className="flex card-recomendations-app">
         <CardRecomendations 
           description="
           Quisque posuere, 
@@ -38,6 +40,27 @@ function App() {
           nisl ante aliquet neque, 
           vitae consectetur nisi erat vitae massa."
           image_card_recomendation='src/assets/icons/icon-happy.png'
+          alt_img_card_recomendation='ícone feliz'
+        />
+
+        <CardRecomendations 
+          description="
+          Quisque posuere, 
+          purus ut egestas vehicula, 
+          nisl ante aliquet neque, 
+          vitae consectetur nisi erat vitae massa."
+          image_card_recomendation='src/assets/icons/security.png'
+          alt_img_card_recomendation='ícone security'
+        />
+
+<CardRecomendations 
+          description="
+          Quisque posuere, 
+          purus ut egestas vehicula, 
+          nisl ante aliquet neque, 
+          vitae consectetur nisi erat vitae massa."
+          image_card_recomendation='src/assets/icons/security.png'
+          alt_img_card_recomendation='ícone sinal legal'
         />
       </div>
     </div>
