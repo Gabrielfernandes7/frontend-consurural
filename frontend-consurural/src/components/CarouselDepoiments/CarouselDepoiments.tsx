@@ -15,11 +15,15 @@ const CarouselDepoiments = () => {
         return (
             <div className="card border-1 border-round py-3 px-5 my-6 mx-18">
                 <div>
-                    <h4 className="name-depoiment mb-1">
+                    <h4 className="text-depoiment mb-1 my-3">
                         {depoiment.text_depoiment}
                     </h4>
-                    <div className="flex flex-wrap justify-content-center py-5 mx-2">
-                        <p> {depoiment.costumer_author_depoiment} </p>
+                    <hr />
+                    <div 
+                        className="flex flex-wrap justify-content-center py-5 mx-2 my-6">
+                        <p className="costumer-author-depoiment">
+                            {depoiment.costumer_author_depoiment} 
+                        </p>
                     </div>
                 </div>
             </div>
