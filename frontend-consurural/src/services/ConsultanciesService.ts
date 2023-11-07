@@ -10,22 +10,22 @@ export const ConsultanciesService = {
             {
                 id: 1,
                 consultance_name: "Bovinocultura leitera",
-                image_consultance: "/src/assets/images/pecuaria-leiteira 1.jpg",
+                image_consultance: "/src/assets/images/pecuaria-leiteira.jpg",
             },
             {
                 id: 2,
                 consultance_name: "Fruticultura",
-                image_consultance: "/src/assets/images/pecuaria-leiteira 1.jpg",
+                image_consultance: "/src/assets/images/pecuaria-leiteira.jpg",
             },
             {
                 id: 3,
                 consultance_name: "Grandes culturas",
-                image_consultance: "/src/assets/images/pecuaria-leiteira 1.jpg",
+                image_consultance: "/src/assets/images/pecuaria-leiteira.jpg",
             },
             {
                 id: 4,
                 consultance_name: "Avicultura",
-                image_consultance: "/src/assets/images/pecuaria-leiteira 1.jpg",
+                image_consultance: "/src/assets/images/pecuaria-leiteira.jpg",
             }
         ];
     },

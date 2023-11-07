@@ -16,6 +16,7 @@ const CarouselConsultancies = () => {
   }, []);
 
   const consultanceTemplate = (consultance: DataConsultance) => {
+    console.log("nome da img: " + consultance.image_consultance)
     return (
       <div className="card2 border-1 border-round py-0 px-0 my-6 mx-18">
         <div className="mb-3">
