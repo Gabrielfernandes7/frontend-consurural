@@ -31,12 +31,7 @@ const SchedulingForm = () => {
 
     return (
         <div className="container-scheduling-form">
-            <h1 className="name-nav-point">
-                ORÇAMENTOS
-            </h1>
-
             <div className="container-dropdown rounded-xl">
-
                 <h1 className="py-4">
                     COM O QUE A CONSURURAL PODE TE AJUDAR HOJE ?
                 </h1>
@@ -88,7 +83,7 @@ const SchedulingForm = () => {
                 <div className="about-consurural-and-logo">
                     <img 
                         className="logo-consurural-about h-32 w-32 md:h-36 md:w-36"
-                        src="/src/assets/images/consurural-logo.jpg"
+                        src="./assets/images/consurural-logo.jpg"
                         alt="Logo da consurural" 
                     />
                     <h2 className="about">

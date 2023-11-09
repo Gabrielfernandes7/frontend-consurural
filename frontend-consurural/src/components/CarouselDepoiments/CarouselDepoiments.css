@@ -1,33 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
 
+hr {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 .card2 {
-    border-radius: 35px;
+    border-radius: 19px;
     margin: 0 auto;
     text-align: center;
 
-    width: 20rem;
     background-color: rgba(15, 19, 79, 1);
 }
 
-.image-card {
-    border-radius: 25px;
-    height: 180px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.name-consultance {
-    font-size: 20px;
-}
-
-.name-nav-point {
+.text-depoiment {
     font-family: "Jura";
-    font-size: 50px;
+    line-height: normal;
+    font-weight: 600;
+    font-size: 20px;
 
-    text-align: center; 
-
-    margin: 2rem 0 2rem 1rem;
+    margin-bottom: 20px;
 }
 
 .container-carousel {
@@ -37,7 +30,15 @@
     margin-right: 2.5rem;
 }
 
-@media only screen and (min-width: 1199px) {
+.costumer-author-depoiment {
+    font-family: "Jura";
+    font-weight: 400;
+    font-size: large;
+
+    text-align: center;
+}
+
+@media screen and (min-width: 1199px) {
     .card2 {
         border-radius: 19px;
         margin: 0 auto;

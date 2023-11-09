@@ -33,7 +33,11 @@ const NavbarHome = () => {
         model={items}
         start={
           <img
+<<<<<<< Updated upstream
             src="/src/assets/icons/icon.png"
+=======
+            src="./assets/icons/icon.png"
+>>>>>>> Stashed changes
             className="nav-icon w-12 md:w-16"
           />
         }

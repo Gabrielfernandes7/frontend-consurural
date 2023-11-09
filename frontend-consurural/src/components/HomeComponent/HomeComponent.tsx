@@ -9,10 +9,6 @@ const HomeComponent = () => {
                 </h1>
 
                 <hr className="underlined-consurural-brand" />
-                
-                <h2 className="text-background-image">
-                    Prestando consultorias a propriedades rurais a mais de 10 anos
-                </h2>
             </div>
         </div>
     )

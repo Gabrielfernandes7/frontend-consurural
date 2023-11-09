@@ -11,7 +11,11 @@ const CarouselConsultancies = () => {
 
   useEffect(() => {
     ConsultanciesService.getConsultanciesSmall().then((data) =>
+<<<<<<< Updated upstream
       setConsultancies(data.slice(0, 4))
+=======
+      setConsultancies(data.slice(0, 5))
+>>>>>>> Stashed changes
     );
   }, []);
 
@@ -31,9 +35,13 @@ const CarouselConsultancies = () => {
           </h4>
           <div className="flex flex-wrap justify-content-center py-5 py-5 mx-2">
             <p>
+<<<<<<< Updated upstream
               Maecenas et pellentesque purus, nec accumsan neque. Cras vehicula
               sodales ligula, et vestibulum mauris tristique laoreet. Ut
               faucibus sed ipsum in consequat. Duis accumsan arcu.
+=======
+              {consultance.text_consultance}
+>>>>>>> Stashed changes
             </p>
           </div>
         </div>
@@ -43,7 +51,10 @@ const CarouselConsultancies = () => {
 
   return (
     <div >
+<<<<<<< Updated upstream
       <h1 className="name-nav-point">CONSULTORIAS</h1>
+=======
+>>>>>>> Stashed changes
       <Carousel
         value={consultancies}
         numVisible={4}

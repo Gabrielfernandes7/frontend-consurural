@@ -11,6 +11,7 @@ li:hover {
 }
 
 @media only screen and (min-width: 960px) {
+<<<<<<< Updated upstream
   /* .button-consulting {
         font-family: "Kodchasan";
         font-size: 15px;
@@ -23,6 +24,8 @@ li:hover {
         height: 6vh;
     } */
 
+=======
+>>>>>>> Stashed changes
   nav {
     display: flex;
     align-items: center;
@@ -49,6 +52,7 @@ li:hover {
 }
 
 @media only screen and (min-width: 1091px) {
+<<<<<<< Updated upstream
   /* .button-consulting {
         font-family: "Kodchasan";
         font-size: 15px;
@@ -61,6 +65,8 @@ li:hover {
         height: 6vh;
     } */
 
+=======
+>>>>>>> Stashed changes
   nav {
     display: flex;
     align-items: center;
@@ -84,6 +90,7 @@ li:hover {
   .nav-icon {
     margin: 0 auto 0 2rem;
   }
+<<<<<<< Updated upstream
 }
 
 .button-consulting {
@@ -105,6 +112,25 @@ li:hover {
 }
 
 
+=======
+}
+
+.button-consulting {
+  font-family: "Kodchasan";
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  background-color: #3fa33d;
+  width: 150px;
+  height: 6vh;
+
+  margin: 2rem;
+}
+
+.p-menubar {
+  background-color: transparent;
+}
+>>>>>>> Stashed changes
 
 @media screen and (max-width: 960px) {
   .p-menubar-root-list {

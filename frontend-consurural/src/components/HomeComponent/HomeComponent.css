@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap");
 
 .background-home {
-  background-image: url("/src/assets/images/wallpaper-main.jpg");
+  background-image: url("../../../public/assets/images/wallpaper-main.jpg");
   text-align: center;
   height: 100vh;
   min-width: 400px;
