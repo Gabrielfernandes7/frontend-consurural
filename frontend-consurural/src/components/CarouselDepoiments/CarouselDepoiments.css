@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
+
+hr {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.card2 {
+    border-radius: 19px;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: rgba(15, 19, 79, 1);
+}
+
+.text-depoiment {
+    font-family: "Jura";
+    line-height: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.container-carousel {
+    height: 100%;
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.costumer-author-depoiment {
+    font-family: "Jura";
+    font-weight: 400;
+    font-size: large;
+
+    text-align: center;
+}
+
+@media screen and (min-width: 1199px) {
+    .card2 {
+        border-radius: 19px;
+        margin: 0 auto;
+        text-align: center;
+    
+        width: 18rem;
+        background-color: rgba(15, 19, 79, 1);
+    }
+}
