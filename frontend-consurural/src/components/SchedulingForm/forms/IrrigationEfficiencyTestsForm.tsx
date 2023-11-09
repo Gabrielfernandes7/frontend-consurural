@@ -43,6 +43,6 @@ const IrrigationEfficiencyTestsForm = () => {
             </form>
         </div>
     );
-}
+};
 
 export default IrrigationEfficiencyTestsForm;

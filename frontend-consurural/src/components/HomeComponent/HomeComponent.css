@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap");
 
 .background-home {
-  background-image: url("/src/assets/images/wallpaper-main.jpg");
+  background-image: url("../../../public/assets/images/wallpaper-main.jpg");
   text-align: center;
-  width: 98.9vw;
   height: 100vh;
+  min-width: 400px;
   background-size: cover;
+  background-repeat: repeat;
 }
 
 .consurural-name-brand {
@@ -40,18 +41,18 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
   }
-  
+
   .text-background-image {
     font-size: 15px;
     font-family: "Karla";
     color: rgba(255, 255, 255, 1);
   }
-  
+
   .underlined-consurural-brand {
     margin: auto;
     width: 25rem;
   }
-  
+
   .brand {
     margin-top: 4rem;
   }
@@ -64,18 +65,18 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
   }
-  
+
   .text-background-image {
     font-size: 17.5px;
     font-family: "Karla";
     color: rgba(255, 255, 255, 1);
   }
-  
+
   .underlined-consurural-brand {
     margin: auto;
     width: 25rem;
   }
-  
+
   .brand {
     margin-top: 2.75rem;
   }
@@ -88,18 +89,18 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
   }
-  
+
   .text-background-image {
     font-size: 19.5px;
     font-family: "Karla";
     color: rgba(255, 255, 255, 1);
   }
-  
+
   .underlined-consurural-brand {
     margin: auto;
     width: 37.5rem;
   }
-  
+
   .brand {
     margin-top: 2.5rem;
   }
