@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap");
 
 .background-home {
-  background-image: url("/src/assets/images/wallpaper-main.jpg");
+  background-image: url("../../../public/assets/images/wallpaper-main.jpg");
   text-align: center;
   height: 100vh;
   min-width: 400px;
@@ -103,5 +103,18 @@
 
   .brand {
     margin-top: 2.5rem;
+  }
+}
+
+.recomendations {
+  min-width: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 900px) {
+  .recomendations {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -11,18 +11,6 @@ li:hover {
 }
 
 @media only screen and (min-width: 960px) {
-  /* .button-consulting {
-        font-family: "Kodchasan";
-        font-size: 15px;
-        color: rgba(255, 255, 255, 1);
-        font-weight: 500;
-        margin: 0 4rem 0 0.2rem;
-    
-        background-color: #3FA33D;
-        width: 12vw;
-        height: 6vh;
-    } */
-
   nav {
     display: flex;
     align-items: center;
@@ -49,18 +37,6 @@ li:hover {
 }
 
 @media only screen and (min-width: 1091px) {
-  /* .button-consulting {
-        font-family: "Kodchasan";
-        font-size: 15px;
-        color: rgba(255, 255, 255, 1);
-        font-weight: 500;
-        margin: 0 4rem 0 0.2rem;
-    
-        background-color: #3FA33D;
-        width: 12vw;
-        height: 6vh;
-    } */
-
   nav {
     display: flex;
     align-items: center;
@@ -94,17 +70,13 @@ li:hover {
   background-color: #3fa33d;
   width: 150px;
   height: 6vh;
-  /* margin: 0 4rem 0 0.2rem;
 
-    width: 12vw;
-    height: 6vh; */
+  margin: 2rem;
 }
 
 .p-menubar {
   background-color: transparent;
 }
-
-
 
 @media screen and (max-width: 960px) {
   .p-menubar-root-list {
