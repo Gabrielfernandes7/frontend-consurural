@@ -16,54 +16,61 @@ function App() {
         <HomeComponent />
       </div>
 
-      <h1 className="name-nav-point">CONSULTORIAS</h1>
       <div
         style={{
           minWidth: 400,
         }}
         className="consultancies-carousel"
       >
+        <h1 className="name-nav-point">CONSULTORIAS</h1>
         <CarouselConsultancies />
       </div>
 
-      <h1 className="name-nav-point">ORÇAMENTOS</h1>
       <div
         style={{
           minWidth: 400,
         }}
       >
+        <h1 className="name-nav-point">ORÇAMENTOS</h1>
         <SchedulingForm />
       </div>
 
-      <h1 className="name-nav-point">RECOMENDAÇÕES</h1>
-      <div className="recomendations">
-        <CardRecomendations
-          description="
+      <div>
+        <h1 className="name-nav-point">RECOMENDAÇÕES</h1>
+        <div
+          style={{
+            minWidth: 400,
+          }}
+          className="recomendations"
+        >
+          <CardRecomendations
+            description="
                       Quisque posuere, 
                       purus ut egestas vehicula, 
                       nisl ante aliquet neque, 
                       vitae consectetur nisi erat vitae massa."
-          image_card_recomendation="./assets/icons/icon-happy.png"
-          alt_img_card_recomendation="ícone feliz"
-        />
+            image_card_recomendation="./assets/icons/icon-happy.png"
+            alt_img_card_recomendation="ícone feliz"
+          />
 
-        <CardRecomendations
-          description="
+          <CardRecomendations
+            description="
                       Quisque posuere, 
                       purus ut egestas vehicula, 
                       nisl ante aliquet neque, 
                       vitae consectetur nisi erat vitae massa."
-          image_card_recomendation="./assets/icons/security.png"
-          alt_img_card_recomendation="ícone security"
-        />
+            image_card_recomendation="./assets/icons/security.png"
+            alt_img_card_recomendation="ícone security"
+          />
+        </div>
       </div>
 
-      <h1 className="name-nav-point">DEPOIMENTOS</h1>
       <div
         style={{
           minWidth: 400,
         }}
       >
+        <h1 className="name-nav-point">DEPOIMENTOS</h1>
         <CarouselDepoiments />
       </div>
     </div>

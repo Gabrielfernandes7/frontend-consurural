@@ -95,6 +95,9 @@ form select {
 
 .logo-consurural-about {
   margin-bottom: 2.5rem;
+
+  min-height: 50px;
+  min-width: 150px
 }
 
 #consultancies {

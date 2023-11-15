@@ -1,39 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Karla:wght@400&display=swap");
 
 .flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .container-recomendations {
-    margin-bottom: 100px;
-    height: 100%;
+  margin-bottom: 100px;
+  height: 100%;
 
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .card-recomendations {
-    @apply rounded-lg;
+  @apply rounded-lg;
 
-    background-color: #0F134F;
+  background-color: #0f134f;
 
-    width: 390px;
-    height: 290px;
+  width: 390px;
+  height: 290px;
 }
 
 .icon-recomendations {
-    flex-direction: column;
+  flex-direction: column;
 
-    height: 8.5rem;
-    width: 8.5rem;
+  height: 8.5rem;
+  width: 8.5rem;
 
-    margin: 3rem auto;
+  margin: 3rem auto;
+}
+
+@media only screen and (max-width: 470px) {
+  .icon-recomendations {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 .text-recomendations {
-    font-family: "Karla";
-    margin: auto 50px auto 50px;
+  font-family: "Karla";
+  margin: auto 50px auto 50px;
 }

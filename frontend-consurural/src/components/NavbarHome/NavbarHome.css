@@ -47,7 +47,7 @@ li:hover {
 
   li {
     display: inline;
-    margin: 1.75rem;
+    margin: 1.55rem;
 
     font-size: 17px;
     font-family: "Lexend";
@@ -84,9 +84,9 @@ li:hover {
   }
 }
 
-.p-menubar-root-list span{
-    color: white;
-  }
+.p-menubar-root-list span {
+  color: white;
+}
 
 .p-menuitem-text {
   color: black;
@@ -94,4 +94,13 @@ li:hover {
 
 .p-menuitem-text {
   color: white;
+}
+/* Estilos para Menubar quando a largura da tela está entre 960px e 1018px */
+@media only screen and (min-width: 960px) and (max-width: 1018px) {
+  .menubar-breakpoint span {
+    font-size: 14.8px !important;
+    
+    margin: 0px;
+    padding: 0px;
+  }
 }
