@@ -1,7 +1,11 @@
-import { useState, useEffect } from 'react';
-import { Carousel } from 'primereact/carousel';
-import { DepoimentsService, DataDepoiments } from '../../services/DepoimentsService';
-import './CarouselDepoiments.css';
+import { useState, useEffect } from "react";
+import { Carousel } from "primereact/carousel";
+
+import { 
+    DepoimentsService, DataDepoiments 
+} from "../../services/DepoimentsService";
+
+import "./CarouselDepoiments.css";
 
 const CarouselDepoiments = () => {
     const [consultancies, setDepoiments] = useState<DataDepoiments[]>([]);
@@ -20,7 +24,8 @@ const CarouselDepoiments = () => {
                     </h4>
                     <hr />
                     <div 
-                        className="flex flex-wrap justify-content-center py-5 mx-2 my-6">
+                        className="flex flex-wrap justify-content-center 
+                            py-5 mx-2 my-6">
                         <p className="costumer-author-depoiment">
                             {depoiment.costumer_author_depoiment} 
                         </p>
@@ -39,22 +44,22 @@ const CarouselDepoiments = () => {
                 itemTemplate={depoimentTemplate}
                 responsiveOptions={[
                     {
-                        breakpoint: '1199px',
+                        breakpoint: "1199px",
                         numVisible: 4,
                         numScroll: 1
                     },
                     {
-                        breakpoint: '991px',
+                        breakpoint: "991px",
                         numVisible: 2,
                         numScroll: 1
                     },
                     {
-                        breakpoint: '767px',
+                        breakpoint: "767px",
                         numVisible: 1,
                         numScroll: 1
                     },
                     {
-                        breakpoint: '600px',
+                        breakpoint: "600px",
                         numVisible: 1,
                         numScroll: 1
                     }

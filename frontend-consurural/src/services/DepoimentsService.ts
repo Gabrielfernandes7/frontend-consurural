@@ -9,13 +9,19 @@ export const DepoimentsService = {
         return [
             {
                 id: 1,
-                costumer_author_depoiment: 'Produtora Juliana Mara – Consultoria de Gestão na avicultura',
-                text_depoiment: '"Depois da consultoria da consurural teve incremento de 18% nos lucros da produção"',
+                costumer_author_depoiment: 
+                "Produtora Juliana Mara – Consultoria de Gestão na avicultura",
+                text_depoiment: 
+                // eslint-disable-next-line max-len
+                "\"Depois da consultoria da consurural teve incremento de 18% nos lucros da produção\"",
             },
             {
                 id: 2,
-                costumer_author_depoiment: 'Produtor Luan de frança – Consultoria Interpretação de análise de solo',
-                text_depoiment: '"O técnico resolveu todas as dúvidas que tínhamos"',
+                costumer_author_depoiment: 
+                // eslint-disable-next-line max-len
+                "Produtor Luan de frança – Consultoria Interpretação de análise de solo",
+                text_depoiment:
+                 "\"O técnico resolveu todas as dúvidas que tínhamos\"",
             }
         ];
     },

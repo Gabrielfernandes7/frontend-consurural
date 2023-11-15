@@ -55,6 +55,6 @@ const ConsultanciesForm = () => {
             </form>
         </div>
     );
-}
+};
 
 export default ConsultanciesForm;

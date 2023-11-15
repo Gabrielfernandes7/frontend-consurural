@@ -1,25 +1,48 @@
 import "./NavbarHome.css";
+import { Menubar } from "primereact/menubar";
 
 const NavbarHome = () => {
-    return (
-        <div>
-            <nav className="nav">
-                <ul className="navbar-items">
-                    <li>Inicio</li>
-                    <li>Orçamentos</li>
-                    <li>Depoimentos</li>
-                    <li>Recomendações</li>
+    const items = [
+        {
+            label: "Inicio",
+            icon: "pi pi-fw pi-file",
+        },
+        {
+            label: "Orçamentos",
+            icon: "pi pi-fw pi-power-off",
+        },
+        {
+            label: "Depoimentos",
+            icon: "pi pi-fw pi-power-off",
+        },
+        {
+            label: "Recomendações",
+            icon: "pi pi-fw pi-power-off",
+        },
+    ];
 
-                    <button className="button-consulting rounded">
-                        CONSULTORIA
-                    </button>
-                </ul>
-                    <img src="/src/assets/icons/icon.png" 
-                        className="nav-icon w-12 md:w-16"
-                    />
-            </nav>
-        </div>
-    )
-}
+  interface items {
+    label: string;
+    icon: string;
+  }
+
+  return (
+      <div className="card">
+          <Menubar
+              className="teste"
+              model={items}
+              start={
+                  <img
+                      src="./assets/icons/icon.png"
+                      className="nav-icon w-12 md:w-16"
+                  />
+              }
+              end={<button className="button-consulting rounded">
+                CONSULTORIA
+              </button>}
+          />
+      </div>
+  );
+};
 
 export default NavbarHome;

@@ -36,6 +36,6 @@ const DiagnosticSurveyForm = () => {
             </form>
         </div>
     );
-}
+};
 
 export default DiagnosticSurveyForm;

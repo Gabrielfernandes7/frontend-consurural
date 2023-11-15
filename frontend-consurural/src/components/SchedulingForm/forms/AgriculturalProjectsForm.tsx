@@ -43,6 +43,6 @@ const AgriculturalProjectsForm = () => {
             </form>
         </div>
     );
-}
+};
 
 export default AgriculturalProjectsForm;
