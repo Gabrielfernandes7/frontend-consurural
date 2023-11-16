@@ -5,7 +5,7 @@ const DiagnosticSurveyForm = () => {
 
     const [formData, setFormData] = useState({
         name: "",
-        addres: "",
+        address: "",
         phone_number: "",
         business_sector: ""
     });
@@ -33,7 +33,7 @@ const DiagnosticSurveyForm = () => {
 
     return (
         <div>
-            <form
+            <form 
                 onSubmit={handleSubmit} 
                 method="post">                    
                 <input 
@@ -50,7 +50,7 @@ const DiagnosticSurveyForm = () => {
                     placeholder="Endereço" 
                     name="address"
                     id="address"
-                    value={formData.addres}
+                    value={formData.address}
                     onChange={handleChange}
                 />
 
@@ -58,7 +58,7 @@ const DiagnosticSurveyForm = () => {
                     type="text" 
                     placeholder="Telefone" 
                     name="phone_number" 
-                    id="number_fone"
+                    id="phone_number"
                     value={formData.phone_number}
                     onChange={handleChange}
                 />
