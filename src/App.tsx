@@ -13,7 +13,7 @@ import SchedulingForm from "./components/SchedulingForm/SchedulingForm";
 
 function App() {
     return (
-        <div>
+        <div> 
             <div className="background-home">
                 <NavbarHome />
                 <HomeComponent />
