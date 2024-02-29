@@ -5,7 +5,7 @@ const DiagnosticSurveyForm = () => {
 
     const [formData, setFormData] = useState({
         name: "",
-        adress: "",
+        address: "",
         phone_number: "",
         business_sector: ""
     });
@@ -24,7 +24,7 @@ const DiagnosticSurveyForm = () => {
         e.preventDefault();
 
         try {
-            const response = await api.post("/formulario/criar", formData);
+            const response = await api.post("customers/create", formData);
             console.log("Resposta da requisição:", response.data);
         } catch (error) {
             console.error("Erro ao enviar requisição:", error);
@@ -50,7 +50,7 @@ const DiagnosticSurveyForm = () => {
                     placeholder="Endereço" 
                     name="address"
                     id="address"
-                    value={formData.adress}
+                    value={formData.address}
                     onChange={handleChange}
                 />
 
@@ -58,7 +58,7 @@ const DiagnosticSurveyForm = () => {
                     type="text" 
                     placeholder="Telefone" 
                     name="phone_number" 
-                    id="number_fone"
+                    id="phone_number"
                     value={formData.phone_number}
                     onChange={handleChange}
                 />

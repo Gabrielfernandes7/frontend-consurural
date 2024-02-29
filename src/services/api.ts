@@ -3,7 +3,7 @@ import axios, { AxiosError } from "axios";
 const api = axios.create({
     baseURL: "/api",
     headers: {
-        "Content-Type": "application/json;charset=UTF-8'",
+        "Content-Type": "application/json; charset=UTF-8",
     },
 });
 
